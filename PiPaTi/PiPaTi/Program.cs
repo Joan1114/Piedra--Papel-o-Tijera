@@ -22,24 +22,14 @@ namespace PiPaTi
                 jugador = jugadas[jugada1 - 1];
                 jugadorM = jugadas[rnd.Next(1,3)];
 
-                if ((jugador == "Piedra") && (jugadorM == "Tijeras"))
-                {
-                    Console.Write("Ganaste, la maquina jugo: " + jugadorM + "\n");
-                }else if ((jugador == "Papel") && (jugadorM == "Piedra"))
-                {
-                    Console.Write("Ganaste, la maquina jugo: " + jugadorM + "\n");
-                }else if ((jugador == "Tijeras") && (jugadorM == "Papel"))
+                if ((jugador == "Piedra") && (jugadorM == "Tijeras") || (jugador == "Papel") && (jugadorM == "Piedra") 
+                    || (jugador == "Tijeras") && (jugadorM == "Papel"))
                 {
                     Console.Write("Ganaste, la maquina jugo: " + jugadorM + "\n");
                 }
 
-                if ((jugadorM == "Piedra") && (jugador == "Tijeras"))
-                {
-                    Console.Write("Gano la maquina porque jugo: " + jugadorM + "\n");
-                }else if ((jugadorM == "Tijeras") && (jugador == "Papel"))
-                {
-                    Console.Write("Gano la maquina porque jugo: " + jugadorM + "\n");
-                }else if ((jugadorM == "Papel") && (jugador == "Piedra"))
+                if ((jugadorM == "Piedra") && (jugador == "Tijeras") || (jugadorM == "Tijeras") && (jugador == "Papel") 
+                    || (jugadorM == "Papel") && (jugador == "Piedra"))
                 {
                     Console.Write("Gano la maquina porque jugo: " + jugadorM + "\n");
                 }
@@ -47,7 +37,7 @@ namespace PiPaTi
                 if ((jugadorM == "Piedra") && (jugador == "Piedra") || (jugadorM == "Papel") && (jugador == "Papel")
                     || (jugadorM == "Tijeras") && (jugador == "Tijeras"))
                 {
-                    Console.Write("Empate, la maquina y el jugador seleccionaron la misma jugada " + jugadorM +  jugador + "\n");
+                    Console.Write("Empate, la maquina y el jugador seleccionaron la misma jugada " + jugadorM + "\n");
                 }
 
                 Console.WriteLine("Desea continuar 1 = Si; 0 = No");
