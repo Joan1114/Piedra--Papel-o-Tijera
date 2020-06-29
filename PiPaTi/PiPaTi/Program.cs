@@ -20,7 +20,7 @@ namespace PiPaTi
                 Console.Write("Jugador escoga su jugada: (1: Piedra; 2:Papel; 3:Tijeras):  ");
                 jugada1 = int.Parse(Console.ReadLine());
                 jugador = jugadas[jugada1 - 1];
-                jugadorM = jugadas[rnd.Next(0, 2)];
+                jugadorM = jugadas[rnd.Next(1,3)];
 
                 if ((jugador == "Piedra") && (jugadorM == "Tijeras"))
                 {
