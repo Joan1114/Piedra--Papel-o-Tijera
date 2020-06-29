@@ -1,0 +1,5 @@
+c:\users\jose manuel\documents\visual studio 2013\Projects\PiPaTi\PiPaTi\bin\Debug\PiPaTi.exe.config
+c:\users\jose manuel\documents\visual studio 2013\Projects\PiPaTi\PiPaTi\bin\Debug\PiPaTi.exe
+c:\users\jose manuel\documents\visual studio 2013\Projects\PiPaTi\PiPaTi\bin\Debug\PiPaTi.pdb
+c:\users\jose manuel\documents\visual studio 2013\Projects\PiPaTi\PiPaTi\obj\Debug\PiPaTi.exe
+c:\users\jose manuel\documents\visual studio 2013\Projects\PiPaTi\PiPaTi\obj\Debug\PiPaTi.pdb
